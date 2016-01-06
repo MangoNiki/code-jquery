@@ -1,0 +1,24 @@
+{
+  "name": "code-jquery",
+  "version": "1.0.0",
+  "description": "this is jquery source code ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MangoNiki/code-jquery.git"
+  },
+  "keywords": [
+    "jquery",
+    "code"
+  ],
+  "private":true,
+  "author": "niki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MangoNiki/code-jquery/issues"
+  },
+  "homepage": "https://github.com/MangoNiki/code-jquery#readme"
+}

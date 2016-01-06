@@ -1,0 +1,25 @@
+{
+  "name": "code-jquery",
+  "homepage": "https://github.com/MangoNiki/code-jquery",
+  "authors": [
+    "niki <niki@90zl.com>"
+  ],
+  "description": "read jquery source code",
+  "main": "index.js",
+  "moduleType": [],
+  "keywords": [
+    "jquery",
+    "code"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3"
+  }
+}
