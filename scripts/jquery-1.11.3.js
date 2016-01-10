@@ -1,5 +1,27 @@
+/*!
+ * jQuery JavaScript Library v1.11.3
+ * http://jquery.com/
+ *
+ * Includes Sizzle.js
+ * http://sizzlejs.com/
+ *
+ * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
+ * Released under the MIT license
+ * http://jquery.org/license
+ *
+ * Date: 2015-04-28T16:19Z
+ */
+
 (function( global, factory ) {
+
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
+		// For CommonJS and CommonJS-like environments where a proper window is present,
+		// execute the factory and get jQuery
+		// For environments that do not inherently posses a window with a document
+		// (such as Node.js), expose a jQuery-making factory as module.exports
+		// This accentuates the need for the creation of a real window
+		// e.g. var jQuery = require("jquery")(window);
+		// See ticket #14549 for more info
 		module.exports = global.document ?
 			factory( global, true ) :
 			function( w ) {
@@ -11,6 +33,8 @@
 	} else {
 		factory( global );
 	}
+
+// Pass this if window is not defined yet
 }(typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
 
 // Can't do this because several apps including ASP.NET trace
