@@ -1,24 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>jQuery 源码学习</title>
-</head>
-<body>
-	<script type="text/javascript" src="scripts/jquery-2.1.4.js"></script>
-	<script type="text/javascript">
-	function fun1 () {
-		alert("ok");
-	}
-	function fun2 () {
-		alert("no");
-	}
 
-	var callback = $.Callbacks();
-	callback.add(fun1);
-	callback.add(fun2);
-	callback.fire();
-	</script>
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery 源码学习</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="scripts/jquery-2.1.4.js"></script>
+    <script type="text/javascript">
+    $(function() {
+    	debugger;
+    });
+    </script>
 </body>
+
 </html>
